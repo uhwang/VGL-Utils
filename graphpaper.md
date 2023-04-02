@@ -4,7 +4,6 @@
  grapher paper generator
  grpaper.py
 '''
-
 import vgl
 
 p_wid, p_hgt = vgl.paper.get_paper_letter_inch()
