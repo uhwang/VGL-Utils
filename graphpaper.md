@@ -36,5 +36,4 @@ while sx <= f_wid:
     sx += grid_dx
 dev.delete_pen()
 dev.close()
-
 ```
