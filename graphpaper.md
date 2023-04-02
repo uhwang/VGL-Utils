@@ -1,4 +1,4 @@
-![graphpaper](https://user-images.githubusercontent.com/43251090/229377301-48924e18-bee6-4109-92d2-9df8982044b5.png)
+![graphpaper](https://user-images.githubusercontent.com/43251090/229385869-8c859780-dcfa-4ac6-b685-e44d62fea255.png)
 ```Python
 '''
  grapher paper generator
