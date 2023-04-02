@@ -38,5 +38,5 @@ def plot(dev):
     dev.close()
 
 plot(vgl.DevicePDF("pxlgrid.pdf", fmm.get_gbbox()))
-plot(vgl.DeviceWindowsMetafile("grid.wmf", fmm.get_gbbox()))
+plot(vgl.DeviceWindowsMetafile("pxlgrid.wmf", fmm.get_gbbox()))
 ```
