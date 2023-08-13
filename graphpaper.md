@@ -21,9 +21,8 @@ grid_dy = unit_grid*2
 
 def plot(dev):
     dev.set_plot(frm)
-    lthk = 0.001*dev.frm.hgt()
     sy = margin_h
-    dev.make_pen(vgl.color.BLACK, lthk)
+    dev.make_pen(vgl.color.BLACK, 0.001) # lcol, lthk
     ex,ey = margin_w+f_wid,margin_h+f_hgt
     while sy <= ey:
         dev.lline(margin_w, sy, ex, sy)
